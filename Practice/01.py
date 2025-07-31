@@ -181,4 +181,130 @@
 # if(age >= 18):
 #     print("You are eligible for voting") 
 # else:
-#     print("You are not eligible ")
+#     print("You are not eligible ") 
+
+#-----------------------------------------------------------------------------  
+#CHAPTER 6 – PRACTICE SET 
+
+#1. Write a program to find the greatest of four numbers entered by the user. 
+
+# a = int(input("Enter first number"))
+# b = int(input("Enter second number"))
+# c = int(input("Enter third number"))
+# d = int(input("Enter fourth number")) 
+
+# if(a>b and a>c and a>d):
+#     print(f"{a} is grater number")
+# elif(b>a and b>c and b>d): 
+#     print(f"{b} is greater number") 
+# elif(c>a and c>b and c>d):
+#     print(f"{c} is greater number") 
+# elif(d>a and d>b and d>c):
+#     print(f"{d} is greater number") 
+#-----------------------------------------------------------------------------
+'''Write a program to find out whether a student has passed or failed if it requires a 
+total of 40% and at least 33% in each subject to pass. Assume 3 subjects and 
+take marks as an input from the user.''' 
+
+# sub1 = int(input("Enter English subject mark : ")) 
+# sub2 = int(input("Enter Math Mark :")) 
+# sub3 = int(input("Enter Science Mark :")) 
+
+# if(sub1 >= 40 and sub2>=40 and sub3>=40):
+#     print("Congratulation you are pass!!") 
+# else:
+#     print("Soory you are failed")  
+
+
+# sub1 = int(input("Enter English subject mark : ")) 
+# sub2 = int(input("Enter Math Mark :")) 
+# sub3 = int(input("Enter Science Mark :")) 
+
+# total_percentage = float(((sub1+sub2+sub3)*100)/300) 
+
+# if(total_percentage >= 40 and sub1 >= 33 and sub2 >=33 and sub3 >= 33):
+#     print("Congratulation you are passed you are scored ",total_percentage)
+
+# else:
+#     print("Soory try next year")
+ 
+
+#----------------------------------------------------------------------------- 
+
+'''A spam comment is defined as a text containing following keywords: 
+“Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program 
+to detect these spams. ''' 
+
+# p1 = 'Make a lot of money'
+# p2 = 'buy now'
+# p3 ='subscribe this' 
+
+# strr = input("Enter a string and i am tell you that is spam contain ") 
+
+# if((p1 in strr) or (p2 in strr) or (p3 in strr)):
+#     print("It Contain spam word ")
+# else:
+#     print("It Does not contain spam word") 
+
+#-----------------------------------------------------------------------------  
+'''Write a program to find whether a given username contains less than 10 
+characters or not.''' 
+
+# userName = input("Enter you userName")
+# print(len(userName))
+# if(len(userName) > 10 ):
+#     print("your username to long like it more than 10 word") 
+# else:
+#     print("your name is short than 10 character")
+#-----------------------------------------------------------------------------
+# '''Write a program which finds out whether a given name is present in a list or not.'''  
+
+# nameList = ["hari","shubham","shivam","tejas"] 
+
+# name = input("Enter your name")
+
+# if(name in nameList):
+#     print("Your name is available in list") 
+
+# else:
+#     print("Your name is not available in list")
+#----------------------------------------------------------------------------- 
+'''Write a program to calculate the grade of a student from his marks from the 
+following scheme: 
+90 – 100 => Ex 
+80 – 90 => A 
+70 – 80 => B 
+60 – 70  =>C 
+50 – 60 => D 
+<50 => F''' 
+
+# mark = int(input("Enter your mark : "))
+# if(mark >90 and mark <=100):
+#     print(" Grade Excellent") 
+# elif(mark >80 and mark <=90):
+#     print("Grade A")
+# elif(mark >70 and mark <=80):
+#     print("Grade B")
+# elif(mark >60 and mark<=70):
+#     print("Grade c")
+# elif(mark >50 and mark<=60):
+#     print('Grade D') 
+# elif(mark < 50):
+#     print("Soory Your grade is F (fail)")
+# else:
+#     print("Check Mark Again that you enter")
+
+#----------------------------------------------------------------------------- 
+''' Write a program to find out whether a given post is talking about “Harry” or not.'''
+
+# post  = input("Enter post ") 
+# yourName  = input("Enter your name ")
+
+# if(yourName.lower() in post.lower()):
+#     print(f"This post is talking about {yourName}")
+# else:
+#     print(f"This post not talking about you{yourName}") 
+#-----------------------------------------------------------------------------  
+
+
+
