@@ -305,6 +305,111 @@ following scheme:
 # else:
 #     print(f"This post not talking about you{yourName}") 
 #-----------------------------------------------------------------------------  
+'''Quick Quiz: Write a program to print 1 to 50 using a while loop.''' 
+
+# i = 1
+# while(i<=50):
+#     print(i) 
+#     i = i+1
+#-----------------------------------------------------------------------------
+'''Quick Quiz:  Write a program to print the content of a list using while loops.''' 
+
+# name = ["hari","shubham","shivam","tejas"] 
+# i=0
+# while(len(name) > i):
+#     print(name[i])
+#     i = i+1
+#----------------------------------------------------------------------------- 
+
+'''Write a program to print multiplication table of a given number using for loop.''' 
+# number = int(input("Enter the number that you want to print table ")) 
+
+# for i in range(1,11):
+#     print(f"{number} * {i} == {number*i}")
+#----------------------------------------------------------------------------- 
+
+# nameList = ["Harry", "Soham", "Sachin", "Rahul"]  
+
+# nameRes = []
+
+# for i in nameList:
+#     if(i.lower().startswith('s')):
+#         nameRes.append(i)
+
+# print(nameRes)
+
+#----------------------------------------------------------------------------- 
+''' Write a program to print multiplication table of a given number using while loop. ''' 
+
+# number = int(input("Enter The number that you want to print table")) 
+
+# i=1 
+
+# while(i<=10):
+#     print(f"{number} * {i} == {number*i}")
+#     i = i+1
+
+#----------------------------------------------------------------------------- 
+''' Check the input number is prime or not'''
+# number = int(input("Enter number that you want to check its prime or not")) 
+
+# if(number <= 1):
+#     print("Its not prime number") 
+# else:
+#     isPrime = True 
+    
+#     for i in range(2,number):
+#         print(number)
+#         if(number % i == 0):
+#             isPrime = False
+#             break
+    
+#     if(isPrime):
+#         print("Its prime number")
+#     else:
+#         print("Its not prime number")
+#-----------------------------------------------------------------------------  
+'''Sum of natural number''' 
+
+# number = int(input("Enter the number that you want sum upto the number")) 
+
+# i = 0 
+# sum = 0 
+
+# while(i<=number):
+#     sum = sum+i
+#     i = i+1 
+
+# print(sum) 
+
+# n  = int(input("Enter the number that you want to check ")) 
+
+# for i in range(2,n):
+#     if(n%i) == 0:
+#         print("Its not prime number")
+#         break
+# else:
+#         print("Its prime number")
+
+#-----------------------------------------------------------------------------
+'''factorial of number''' 
+
+# res = 1 
+
+# number  = int(input("Enter the number that you want factorial"))
+
+# for i in range(1,number+1):
+#     res = res*i
+
+# print(res) 
+
+#----------------------------------------------------------------------------- 
+
+''' Write a program to print multiplication table of n using for loops in reversed 
+order.'''  
 
 
-
+n = int(input("Enter the number that you want print table in reveserd order"))
+ 
+for i in range(1,11):
+    print(f"{n} * {11-i} == {n*(11-i)}")
