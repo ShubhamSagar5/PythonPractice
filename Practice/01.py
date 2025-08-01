@@ -409,7 +409,92 @@ following scheme:
 order.'''  
 
 
-n = int(input("Enter the number that you want print table in reveserd order"))
+# n = int(input("Enter the number that you want print table in reveserd order"))
  
-for i in range(1,11):
-    print(f"{n} * {11-i} == {n*(11-i)}")
+# for i in range(1,11):
+#     print(f"{n} * {11-i} == {n*(11-i)}") 
+
+#-----------------------------------------------------------------------------  
+
+'''Quick Quiz:  Write a program to greet a user with “Good day” using functions. ''' 
+
+# def goodDay(name):
+#     print("Good Day "+name)
+
+
+# goodDay("shivam") 
+
+#----------------------------------------------------------------------------- 
+''' Write a program using functions to find greatest of three numbers'''
+ 
+# def greatestNumber(a,b,c):
+#     if(a>b and a>c):
+#         return a
+#     elif(b>a and b>c):
+#         return b 
+#     elif(c>a and c>b):
+#         return c
+    
+# res = greatestNumber(22,12,13) 
+
+# print(res) 
+
+#----------------------------------------------------------------------------- 
+'''Write a python program using function to convert Celsius to Fahrenheit. ''' 
+
+# def celsiusToFer(cel):
+
+#   temp = ((9/5 * cel) + 32,"fer") 
+#   return temp 
+
+# print(celsiusToFer(7)) 
+#----------------------------------------------------------------------------- 
+
+'''How do you prevent a python print() function to print a new line at the end. ''' 
+
+# def printLine():
+#     print("hello",end="") 
+#     print("world")
+
+# print(printLine())  
+
+#-----------------------------------------------------------------------------  
+
+'''Convert inc to cm''' 
+
+# def incToCm(inc = 1):
+
+#     return inc*2.54
+
+# print(incToCm(2)) 
+
+#----------------------------------------------------------------------------- 
+
+'''Write a python function to print multiplication table of a given number. ''' 
+
+# number = int(input("Enter number")) 
+
+# def printTable(num):
+#     for i in range(1,11):
+#         print(f"{i}*{number} == {i*number}") 
+
+# print(printTable(5))
+
+#--------------------------------------------------------------------------- 
+
+'''Remove name from list''' 
+
+# l = ["hari","shubham","tejas"] 
+
+# def removeName(l,name):
+#     for i in l:
+#         if(i == name):
+#             l.remove(name) 
+    
+#     return l
+
+
+# print(removeName(l,"shubham"))
+
+#---------------------------------------------------------------------------  
+
