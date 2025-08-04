@@ -507,4 +507,79 @@ order.'''
 # poemFile.close() 
 
 #--------------------------------------------------------------------------- 
+''' Create a class “Programmer” for storing information of few programmers 
+working at Microsoft. '''
 
+# class Programmer:
+#     name=""
+#     age="" 
+#     salary:0
+#     role="" 
+
+#     def __init__(self,name,age,salary,role):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+#         self.role = role 
+    
+#     def printDetails(self):
+#         print(f"This is info of {self.name}.he was working in microsoft and their age is {self.age} and their salary {self.salary} and their role is {self.role}")
+
+# p1 = Programmer("hari",25,250000,"Aiml Engg") 
+# print(p1.printDetails()) 
+
+#--------------------------------------------------------------------------- 
+'''Write a class “Calculator” capable of finding square, cube and square root of a 
+number. ''' 
+# import math
+
+# class Calculator:
+#     number = 0 
+
+#     def __init__(self,number):
+#         self.number = number 
+    
+#     def square(self):
+#         res = self.number ** 2
+#         return print(f"the square of {self.number} is {res}")
+    
+#     def cube(self):
+#         res = self.number ** 3
+#         return print(f"the cube of {self.number} is {res}")
+    
+#     def squareRoot(self):
+#         res = math.sqrt(self.number) 
+#         return print(f"the squareRoot of {self.number} is {res}") 
+    
+#     @staticmethod
+#     def greet():
+#         print("Hello their!!!")
+        
+# num1 = Calculator(25)
+# num1.square()
+# num1.cube()
+# num1.squareRoot()
+# num1.greet()
+#--------------------------------------------------------------------------- 
+'''Write a Class ‘Train’ which has methods to book a ticket, get status (no of seats) 
+and get fare information of train running under Indian Railways.''' 
+
+
+# class Tain:
+#     tainNo:0 
+
+#     def __init__(self,trainNo):
+#         self.tainNo = trainNo 
+
+#     def book(self,ticketNum):
+#         print(f"you book ticket {ticketNum}") 
+    
+#     @staticmethod
+#     def getStatus():
+#         print("Train on time") 
+    
+    
+# t1 = Tain(201) 
+# t1.book(2)
+# t1.getStatus() 
+#--------------------------------------------------------------------------- 
