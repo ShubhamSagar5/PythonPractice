@@ -583,3 +583,32 @@ and get fare information of train running under Indian Railways.'''
 # t1.book(2)
 # t1.getStatus() 
 #--------------------------------------------------------------------------- 
+#''' Create a class ‘Pets’ from a class ‘Animals’ and further create a class ‘Dog’ from 
+#‘Pets’. Add a method ‘bark’ to class ‘Dog’. '''
+
+# class Animal:
+#     pass
+
+# class Pets(Animal):
+#     pass 
+
+# class Dog(Pets):
+#     @staticmethod
+#     def bark():
+#         print("The Dog is barking very loudly") 
+
+#--------------------------------------------------------------------------- 
+'''Create a class ‘Employee’ and add salary and increment properties to it. '''
+
+# class Employee:
+    
+#     salary= 0
+#     def incrementSalary(self,incAmt):
+#         self.salary = self.salary+incAmt 
+#         return self.salary
+
+# emp = Employee() 
+# newUpdateSalary = emp.incrementSalary(1000)  
+# print(newUpdateSalary)
+
+#--------------------------------------------------------------------------- 
