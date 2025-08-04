@@ -498,3 +498,13 @@ order.'''
 
 #---------------------------------------------------------------------------  
 
+# poemFile = open("poems.txt","r") 
+# dataPoem = poemFile.read() 
+# if("twinkle" in dataPoem):
+#     print("yes its avialable")
+# else:
+#     print("Word is not available")
+# poemFile.close() 
+
+#--------------------------------------------------------------------------- 
+
