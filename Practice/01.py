@@ -612,3 +612,211 @@ and get fare information of train running under Indian Railways.'''
 # print(newUpdateSalary)
 
 #--------------------------------------------------------------------------- 
+
+
+# try:
+#         a = int(input("Enter a number")) 
+#         print(a) 
+
+# except Exception as e:
+#         print(e,"This is except block") 
+    
+# finally:
+#         print("its finally blocked")
+
+
+
+#--------------------------------------------------------------------------- 
+
+# def printName(x):
+#     print(x) 
+
+# try:
+#     printName(5) 
+# except ZeroDivisionError:
+#     print("Name error") 
+
+#--------------------------------------------------------------------------- 
+#Apana College AiMl
+#Q6. Write a program to swap values of two numbers entered by the user. 
+
+# num_1 = int(input("Enter the number first"))
+# num_2 = int(input("Enter the number second"))
+
+# print("num_1 :",num_1)
+# print("num_2 :",num_2) 
+
+# num_1 = num_1 + num_2 
+# num_2 = num_1 - num_2 
+# num_1 = num_1 - num_2 
+
+
+# print("num_1 :",num_1)
+# print("num_2 :",num_2)  
+
+#---------------------------------------------------------------------------  
+# Q7. Ask the user for a temperature in Celsius (string input). Convert it to , 
+# then calculate and print temperature in Fahrenheit. 
+# float 
+
+# temp = float(input("Enter the temperture")) 
+# FahrenheitTemp = temp * (9/5) + 32 
+# print("Result is :",FahrenheitTemp) 
+
+#--------------------------------------------------------------------------- 
+# Q8. Take the radius (r) as user input and print the area. 
+# Area = π * r2 
+# Use the formula:  
+# (value of π = 3.14) 
+
+
+# radius = float(input("Enter the radius ")) 
+# ans = 3.14*(radius**radius) 
+# print(ans)
+
+#--------------------------------------------------------------------------- 
+#Multiplication 
+
+# num = int(input("Enter the number that you want to print table ")) 
+
+# if num <= 0:
+#     print("Enter valid Number")  
+# i = 1
+# while i <= 10 : 
+#     print(num*i) 
+#     i = i+1 
+
+# def add(a,b):
+#     sum = a+b 
+#     return sum  
+
+# print(add(2,3))
+#--------------------------------------------------------------------------- 
+#Factorial number 
+ 
+# def fact(num):
+#   sum = 1   
+#   for i in range(1,num+1):
+#         sum = sum*i
+#   return sum
+# print(fact(5)) 
+
+
+#--------------------------------------------------------------------------- 
+# Q1. Write a program that takes as input. Using conditional statements, 
+# calculate the final tax rate based on these rules: 
+# • If salary < 30,000 → 5% 
+# • If salary is 30,000–70,000 → 15% 
+# • If salary > 70,000 → 25% 
+ 
+# salary = int(input("Enter the salary ")) 
+
+
+# if(salary > 70000):
+#     print("The final tax rate is 25%")  
+# elif(salary >= 30000 and salary < 70000):
+#     print("The final tax is 15%")
+# else:
+#     print("The final tax rate is 5%") 
+
+#---------------------------------------------------------------------------  
+# Q2. Write a function that takes two integers and and prints all even 
+# numbers between them (inclusive).
+
+# start_num = int(input("Enter the start number"))
+# last_num = int(input("Enter the last number"))
+
+# def even_num(start_num,last_num):
+#     for i in range(start_num,last_num+1):
+#         if(i % 2 == 0):
+#             print(i) 
+
+
+# even_num(start_num,last_num)
+
+#---------------------------------------------------------------------------  
+
+# Q3. Write a function that prints the digits of a number, . 
+# For eg: , there are 3 digits in it 3, 1 and 2 & we need to print them.  
+ 
+
+# def print_digit():
+#     number = int(input("Enter the digit number")) 
+
+#     while number > 0:
+#         last_digit = int(number%10) 
+#         print(last_digit) 
+#         number = int(number/10) 
+
+# print_digit() 
+
+#---------------------------------------------------------------------------
+# Q4. Write a function to return the count the number of digits in a number, . 
+# def print_digit():
+
+#     number = int(input("Enter the digit number")) 
+#     count = 0
+#     while number > 0: 
+       
+#         count = count+1
+#         last_digit = int(number%10) 
+#         number = int(number/10) 
+#     return count
+
+
+# print(print_digit())  
+#--------------------------------------------------------------------------- 
+# Q5. Write a function to return the sum of digits of a number, . 
+
+# def sum_digit():
+#     number = int(input("Enter the number ")) 
+
+#     sum = 0 
+
+#     while number>0:
+#         temp = int(number%10) 
+#         sum = int(sum+temp) 
+#         number = int(number/10) 
+#     return sum 
+
+# print(sum_digit())
+
+#--------------------------------------------------------------------------- 
+
+# Q6. Write a program to print all numbers from 1 to 100 that are divisible by both 3 
+# and 5.
+
+# def divisible_by_3_5():
+#     for i in range(1,100+1):
+#         if(i%3 ==0 and i%5 ==0):
+#             print(i) 
+#     return "dd"
+# print(divisible_by_3_5())
+
+#--------------------------------------------------------------------------- 
+
+# Q7. Design a program to continuously input a number from user & print if it is 
+# positive or negative until the user enters “Quit”. 
+
+# def continous():
+#     input_num = input("Enter number") 
+
+#     while input_num != "quit":
+#         input_num = input("enter number")
+
+
+# continous() 
+
+#---------------------------------------------------------------------------  
+# Q8. Letʼs create a Simple Calculator that performs arithmetic operations. Create 
+# a function calculator(a, b, operation) that performs addition, subtraction, 
+# multiplication, or division based on the operation parameter. 
+# [ 
+# operation 
+# parameter can have values , , & .  
+
+def calaculator(a,b,oper):
+    print(f'''{a}{(oper)}{b}''')  
+
+
+calaculator(2,3,+)
